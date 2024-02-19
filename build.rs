@@ -23,7 +23,7 @@ fn choose_source_dir() -> Option<String> {
     #[cfg(target_os = "macos")]
     {
         // Try the standard SDK install location on Mac OS
-        let std_location = Path::new("/Library/NDI SDK for macOS/lib/macOS/");
+        let std_location = Path::new("/usr/local/lib");
         if std_location.exists() {
             return std_location.to_str().map(|s| s.to_string());
         }
