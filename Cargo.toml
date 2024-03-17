@@ -5,6 +5,7 @@ license = "MIT/Apache-2.0"
 authors = ["Julian Waller <git@julusian.co.uk>"]
 edition = "2018"
 repository = "https://github.com/groovybits/rust-ndi"
+description = "NDI Bindings for RsLLM"
 
 build = "build.rs"
 
