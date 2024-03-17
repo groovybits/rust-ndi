@@ -1,10 +1,10 @@
 [package]
-name = "ndi-sdk"
-version = "0.1.0"
+name = "ndi-sdk-rsllm"
+version = "0.1.1"
 license = "MIT/Apache-2.0"
 authors = ["Julian Waller <git@julusian.co.uk>"]
 edition = "2018"
-repository = "https://github.com/julusian/rust-ndi"
+repository = "https://github.com/groovybits/rust-ndi"
 
 build = "build.rs"
 
